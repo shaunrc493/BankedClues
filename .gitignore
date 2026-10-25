@@ -8,3 +8,9 @@ nbactions.xml
 nb-configuration.xml
 nbproject/
 *.class
+out/
+.tmp/
+*.tmp
+*.log
+hs_err_pid*
+replay_pid*
