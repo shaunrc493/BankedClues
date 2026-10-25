@@ -1,16 +1,35 @@
-.gradle
-build
+# Gradle caches and generated output
+.gradle/
+build/
+out/
+bin/
+*.class
+
+# Local IDE settings
 .idea/
+*.iml
+.vscode/
 .project
 .settings/
 .classpath
 nbactions.xml
 nb-configuration.xml
 nbproject/
-*.class
-out/
+
+# Local development data and environment files
+.runelite/
+.env
+.env.*
+!.env.example
+
+# Temporary files, logs, and JVM crash reports
 .tmp/
 *.tmp
 *.log
 hs_err_pid*
 replay_pid*
+
+# Operating-system metadata
+.DS_Store
+Thumbs.db
+Desktop.ini
